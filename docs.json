@@ -11,14 +11,12 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "introduction"
-        ]
+        "group": "Indexer",
+        "pages": ["writing-content/page", "writing-content/text"]
       },
       {
         "group": "Writing Content",
-        "pages": ["writing-content/page", "writing-content/text"]
+        "pages": ["essentials/code", "writing-content/text"]
       }
     ],
     "global": {
