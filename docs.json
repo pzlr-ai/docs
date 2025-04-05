@@ -11,13 +11,11 @@
   "navigation": {
     "groups": [
       {
-        "group": "Indexer",
+        "group": "Dashboard",
         "pages": [
-          "pages/agent/dateiragen",
-          {
-            "group": "Domains",
-            "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
-          }
+          "pages/dashboard/urlss",
+          "pages/dashboard/dateien",
+          "pages/dashboard/chatsessions",
           ]
       },
       {
@@ -25,7 +23,7 @@
         "pages": [
           {
             "group": "RAG-Agent",
-            "pages": ["pages/rag-agent/indexierung", "pages/indexer/urls"]
+            "pages": ["pages/rag-agent/indexierung", "pages/indexer/test"]
           },
           {
             "group": "Sales-Agent",
