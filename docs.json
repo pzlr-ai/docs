@@ -12,6 +12,13 @@
     
     "groups": [
       {
+        "group": "Erste Schritte",
+        "pages": [
+          "pages/ersteschritte/demo",
+          "pages/ersteschritte/agentbuchen"
+          ]
+      },
+      {
         "group": "Agents",
         "pages": [
           {
