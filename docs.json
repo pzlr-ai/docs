@@ -15,11 +15,10 @@
         "pages": [
           "pages/indexer/dateien",
           {
-            "group": "Editing",
-            "icon": "pen-paintbrush",
-            "pages": ["development", "web-editor"]
-          },
-          "pages/indexer/sitemap", "pages/indexer/urls"]
+            "group": "Domains",
+            "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
+          }
+          ]
       },
       {
         "group": "Agents",
