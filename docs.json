@@ -13,12 +13,7 @@
       {
         "group": "Getting Started",
         "pages": [
-          "introduction",
-          {
-            "group": "Editing",
-            "icon": "pen-paintbrush",
-            "pages": ["development", "web-editor"]
-          }
+          "introduction"
         ]
       },
       {
