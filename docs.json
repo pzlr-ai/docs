@@ -12,7 +12,14 @@
     "groups": [
       {
         "group": "Indexer",
-        "pages": ["pages/indexer/dateien", "pages/indexer/sitemap", "pages/indexer/urls"]
+        "pages": [
+          "pages/indexer/dateien",
+          {
+            "group": "Editing",
+            "icon": "pen-paintbrush",
+            "pages": ["development", "web-editor"]
+          },
+          "pages/indexer/sitemap", "pages/indexer/urls"]
       },
       {
         "group": "Agents",
