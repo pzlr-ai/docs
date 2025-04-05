@@ -9,30 +9,21 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
+        "group": "Getting Started",
+        "pages": [
+          "introduction",
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Editing",
+            "icon": "pen-paintbrush",
+            "pages": ["development", "web-editor"]
           }
         ]
+      },
+      {
+        "group": "Writing Content",
+        "pages": ["writing-content/page", "writing-content/text"]
       }
     ],
     "global": {
