@@ -11,14 +11,6 @@
   "navigation": {
     "groups": [
       {
-        "group": "Dashboard",
-        "pages": [
-          "pages/dashboard/urls",
-          "pages/dashboard/dateien",
-          "pages/dashboard/chatsessions"
-          ]
-      },
-      {
         "group": "Agents",
         "pages": [
           {
@@ -28,12 +20,20 @@
           "pages/sales-agent/comingsoon",
           "pages/recruiting-agent/comingsoon"
         ]
+      },
+      {
+        "group": "Dashboard",
+        "pages": [
+          "pages/dashboard/urls",
+          "pages/dashboard/dateien",
+          "pages/dashboard/chatsessions"
+          ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Agent-Demo",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
