@@ -13,7 +13,7 @@
       {
         "group": "Indexer",
         "pages": [
-          "pages/indexer/dateien",
+          "pages/agent/dateiragen",
           {
             "group": "Domains",
             "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
@@ -22,7 +22,13 @@
       },
       {
         "group": "Agents",
-        "pages": ["pages/agents/rag-agent", "pages/agents/sales-agent", "pages/agents/recruiting-agent"]
+        "pages": [
+          "pages/agents/rag-agent",
+          {
+            "group": "RAG-Agent",
+            "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
+          }, 
+          "pages/agents/sales-agent", "pages/agents/recruiting-agent"]
       }
     ],
     "global": {
