@@ -15,8 +15,8 @@
         "pages": ["pages/indexer/dateien", "pages/indexer/sitemap", "pages/indexer/urls"]
       },
       {
-        "group": "Writing Content",
-        "pages": ["writing-content/page", "writing-content/text"]
+        "group": "Agents",
+        "pages": ["pages/agents/rag-agent", "pages/agents/sales-agent", "pages/agents/recruiting-agent"]
       }
     ],
     "global": {
