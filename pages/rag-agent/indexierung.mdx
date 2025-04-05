@@ -1,9 +1,22 @@
 ---
 title: Indexierung'
-description: 'der allwissende Allrounde – 24/7 für deine Kunden.'
+description: 'Die Wissensbasis des RAG-Agent kann über Sitemaps, einzelne URLs sowie Dateien erweitert werden.'
 ---
 
-Da sich vor allem tiefergehendes Fachwissen meistens in separaten Dateien befindet (Beispiel technisches Datenblatt, im PDF Format) können über das Dashboard auch Dateien indexiert werden. 
+## Domain Indexing
+
+Es besteht die Möglichkeit, entweder eine Sidemap im XML Format oder eine einfache URL indexieren Zu lassen. Dabei muss die XML Datei über das Internet öffentlich aufrufbar sein.
+
+Die meisten CMS, wie Typo 3, WordPress, XXX oder E-Commerce Lösungen wie Shopware oder magento, liefern standardmäßig entsprechende XML Dateien mit
+
+### Sitemap
+
+Der Rackagent ist in der Lage, die in der Zeit UL enthaltenen Seiten zu exportieren und einzeln in seine Wissensbasis einzufügen. Wird eine Seiten URL erneut hochgeladen, werden sämtliche doppelten Inhalte überschrieben.
+
+Sobald die Indexierung der Seiten erfolgreich abgeschlossen wurde und der Agent auf das Wissen zugreifen kann, erhält man eine Bestätigung E-Mail und der Status im Dashboard ändert sich in Live.
+
+Es wird empfohlen, zusätzlich zur Sidemap UL auch einen Beschreibungstext einzugeben, wodurch die einzelnen Zeiten später einer bestimmten Zeit Map zugeordnet und dadurch gefiltert werden können.
+
 
 <Tip>Der RAG-Agent versteht die Dateiformate PDF, XLS/XLSX, TXT, DOC/DOCX und CSV. Wir empfehlen bei der Indexierung von Tabellen das Dateiformat `.csv`</Tip>
 

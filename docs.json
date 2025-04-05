@@ -25,7 +25,7 @@
         "pages": [
           {
             "group": "RAG-Agent",
-            "pages": ["pages/rag-agent/sitemap", "pages/indexer/urls"]
+            "pages": ["pages/rag-agent/indexierung", "pages/indexer/urls"]
           },
           {
             "group": "Sales-Agent",
