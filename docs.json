@@ -23,12 +23,19 @@
       {
         "group": "Agents",
         "pages": [
-          "pages/agents/rag-agent",
           {
             "group": "RAG-Agent",
+            "pages": ["pages/rag-agent/sitemap", "pages/indexer/urls"]
+          },
+          {
+            "group": "Sales-Agent",
             "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
           }, 
-          "pages/agents/sales-agent", "pages/agents/recruiting-agent"]
+          {
+            "group": "Recruiting-Agent",
+            "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
+          }
+        ]
       }
     ],
     "global": {
