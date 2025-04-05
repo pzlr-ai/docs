@@ -9,13 +9,37 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "dropdowns": [
+    {
+      "dropdown": "Documentation",
+      "icon": "book-open",
+      "pages": [
+        "quickstart",
+        "development",
+        "navigation"
+      ]
+    }
+    {
+      "dropdown": "API References",
+      "icon": "sqaure-terminal",
+      "pages": [
+        "api-reference/get",
+        "api-reference/post",
+        "api-reference/delete"
+      ]
+    }
+    {
+      "dropdown": "Blog",
+      "href": "https://external-link.com/blog"
+    }
+  ],
     "groups": [
       {
         "group": "Agents",
         "pages": [
           {
             "group": "RAG-Agent",
-            "pages": ["pages/rag-agent/indexierung", "pages/indexer/test"]
+            "pages": ["pages/rag-agent/indexierung", "pages/rag-agent/booster", "pages/rag-agent/usecases", "pages/rag-agent/demo"]
           },
           "pages/sales-agent/comingsoon",
           "pages/recruiting-agent/comingsoon"
