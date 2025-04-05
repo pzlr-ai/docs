@@ -12,7 +12,7 @@
     "groups": [
       {
         "group": "Indexer",
-        "pages": ["pages/indexer/page", "writing-content/text"]
+        "pages": ["pages/indexer/dateien", "pages/indexer/sitemap", "pages/indexer/urls"]
       },
       {
         "group": "Writing Content",
