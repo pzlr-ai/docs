@@ -25,14 +25,8 @@
             "group": "RAG-Agent",
             "pages": ["pages/rag-agent/indexierung", "pages/indexer/test"]
           },
-          {
-            "group": "Sales-Agent",
-            "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
-          }, 
-          {
-            "group": "Recruiting-Agent",
-            "pages": ["pages/indexer/sitemap", "pages/indexer/urls"]
-          }
+          "pages/sales-agent/comingsoon",
+          "pages/recruiting-agent/comingsoon"
         ]
       }
     ],
