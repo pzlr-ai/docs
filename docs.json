@@ -13,9 +13,9 @@
       {
         "group": "Dashboard",
         "pages": [
-          "pages/dashboard/urlss",
+          "pages/dashboard/urls",
           "pages/dashboard/dateien",
-          "pages/dashboard/chatsessions",
+          "pages/dashboard/chatsessions"
           ]
       },
       {
