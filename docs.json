@@ -12,11 +12,11 @@
     "groups": [
       {
         "group": "Indexer",
-        "pages": ["writing-content/page", "writing-content/text"]
+        "pages": ["pages/indexer/page", "writing-content/text"]
       },
       {
         "group": "Writing Content",
-        "pages": ["essentials/code", "writing-content/text"]
+        "pages": ["writing-content/page", "writing-content/text"]
       }
     ],
     "global": {
