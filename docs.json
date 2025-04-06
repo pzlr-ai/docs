@@ -37,6 +37,15 @@
           "pages/dashboard/dateien",
           "pages/dashboard/chatsessions"
           ]
+      },
+      {
+        "group": "Integrationen",
+        "pages": [
+          "pages/integrationen/gmail",
+          "pages/integrationen/google-drive",
+          "pages/integrationen/hubspot",
+          "pages/integrationen/zoho-crm"
+          ]
       }
     ]
   },
