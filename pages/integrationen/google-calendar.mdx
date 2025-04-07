@@ -1,44 +1,36 @@
 ---
 title: 'Google Calendar'
-description: 'Die Wissensbasis des RAG-Agent kann über Sitemaps, einzelne URLs sowie Dateien erweitert werden.'
+description: 'Integration und Automatisierungen mit Google Calendar.'
 ---
 
-## Domain Indexing
+Unsere Agents werden durch die Integration von Google Calendar (als Teil von 'Google Workspace') dazu befähigt, Termine zu verwalten, Verfügbarkeiten zu prüfen, Einladungen automatisiert zu versenden und Meeting-Zeiten intelligent vorzuschlagen.
 
-Es besteht die Möglichkeit, entweder eine Sidemap im XML Format oder eine einfache URL indexieren Zu lassen. Dabei muss die XML Datei über das Internet öffentlich aufrufbar sein.
+### Einleitung & Nutzen
 
-Die meisten CMS, wie Typo 3, WordPress, XXX oder E-Commerce Lösungen wie Shopware oder magento, liefern standardmäßig entsprechende XML Dateien mit
+- Kurzbeschreibung der Integration
+- Warum diese Integration für AI Agents wichtig ist
 
-### Sitemap
+### Verfügbare Funktionen
 
-Der Rackagent ist in der Lage, die in der Zeit UL enthaltenen Seiten zu exportieren und einzeln in seine Wissensbasis einzufügen. Wird eine Seiten URL erneut hochgeladen, werden sämtliche doppelten Inhalte überschrieben.
+- Übersicht der unterstützten Funktionen
+- Unterschiede je nach Agent (z. B. Lesend vs. Schreibend, Trigger, Automatisierungen)
 
-Sobald die Indexierung der Seiten erfolgreich abgeschlossen wurde und der Agent auf das Wissen zugreifen kann, erhält man eine Bestätigung E-Mail und der Status im Dashboard ändert sich in Live.
+### Verwendbar in folgenden Agents
 
-Es wird empfohlen, zusätzlich zur Sidemap UL auch einen Beschreibungstext einzugeben, wodurch die einzelnen Zeiten später einer bestimmten Zeit Map zugeordnet und dadurch gefiltert werden können.
+- Auflistung der kompatiblen Agents mit Beschreibung, was sie nutzen
+- Eventuell: Unterschiede bei Integrationstiefe
 
+### Technische Anforderungen
 
-<Tip>Der RAG-Agent versteht die Dateiformate **PDF, XLS/XLSX, TXT, DOC/DOCX** und *CSV*. Bei der Indexierung von Tabellen wird das Dateiformat `.csv` empfohlen.</Tip>
+- API Key / OAuth
+- Rollenberechtigungen
+- Setup-Hinweise
 
+### Anwendungsbeispiele (pro Agent)
 
-### Code Block
+- Kurze Use Cases, z. B. „Lead automatisch in Hubspot anlegen“
 
-Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
+### Erweiterungsmöglichkeiten
 
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-
-````md
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````
+- Webhooks, Trigger-Aktionen, Pipelines etc.
+- Ideen für zukünftige Automatisierungen
