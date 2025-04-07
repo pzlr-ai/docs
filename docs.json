@@ -46,6 +46,12 @@
           "pages/integrationen/hubspot",
           "pages/integrationen/zoho-crm"
           ]
+      },
+      {
+        "group": "Datenschutz",
+        "pages": [
+          "pages/datenschutz/dsgvo"
+          ]
       }
     ]
   },
