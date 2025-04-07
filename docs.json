@@ -52,7 +52,8 @@
       {
         "group": "Datenschutz",
         "pages": [
-          "pages/datenschutz/dsgvo"
+          "pages/datenschutz/dsgvo",
+          "pages/datenschutz/hosting"
           ]
       }
     ]
