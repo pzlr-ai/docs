@@ -24,7 +24,7 @@
         "pages": [
           {
             "group": "RAG-Agent",
-            "pages": ["pages/rag-agent/indexierung", "pages/rag-agent/booster", "pages/rag-agent/usecases"]
+            "pages": ["pages/rag-agent/rag", "pages/rag-agent/indexierung", "pages/rag-agent/booster", "pages/rag-agent/usecases"]
           },
           "pages/sales-agent/comingsoon",
           "pages/recruiting-agent/comingsoon"
