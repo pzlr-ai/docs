@@ -33,8 +33,9 @@
       {
         "group": "Upgrades",
         "pages": [
-          "upgrades/addons",
-          "upgrades/booster"
+          "upgrades/howto",
+          "upgrades/booster",
+          "upgrades/addons"
           ]
       },
       {
