@@ -58,10 +58,11 @@
           ]
       },
       {
-        "group": "Datenschutz",
+        "group": "Informationen",
         "pages": [
-          "datenschutz/dsgvo",
-          "datenschutz/hosting"
+          "informationen/changelog",
+          "informationen/dsgvo",
+          "informationen/hosting"
           ]
       }
     ]
