@@ -14,9 +14,9 @@
       {
         "group": "Erste Schritte",
         "pages": [
-          "pages/ersteschritte/willkommen",
-          "pages/ersteschritte/demo",
-          "pages/ersteschritte/agentbuchen"
+          "ersteschritte/willkommen",
+          "ersteschritte/demo",
+          "ersteschritte/agentbuchen"
           ]
       },
       {
@@ -24,36 +24,43 @@
         "pages": [
           {
             "group": "RAG-Agent",
-            "pages": ["pages/rag-agent/rag", "pages/rag-agent/indexierung", "pages/rag-agent/booster", "pages/rag-agent/usecases"]
+            "pages": ["rag-agent/rag", "rag-agent/indexierung", "rag-agent/booster", "rag-agent/usecases"]
           },
-          "pages/sales-agent/comingsoon",
-          "pages/recruiting-agent/comingsoon"
+          "sales-agent/comingsoon",
+          "recruiting-agent/comingsoon"
         ]
+      },
+      {
+        "group": "Upgrades",
+        "pages": [
+          "upgrades/booster",
+          "upgrades/addons"
+          ]
       },
       {
         "group": "Dashboard",
         "pages": [
-          "pages/dashboard/urls",
-          "pages/dashboard/dateien",
-          "pages/dashboard/chatsessions"
+          "dashboard/urls",
+          "dashboard/dateien",
+          "dashboard/chatsessions"
           ]
       },
       {
         "group": "Integrationen",
         "pages": [
-          "pages/integrationen/gmail",
-          "pages/integrationen/google-calendar",
-          "pages/integrationen/google-drive",
-          "pages/integrationen/hubspot",
-          "pages/integrationen/outlook",
-          "pages/integrationen/zoho-crm"
+          "integrationen/gmail",
+          "integrationen/google-calendar",
+          "integrationen/google-drive",
+          "integrationen/hubspot",
+          "integrationen/outlook",
+          "integrationen/zoho-crm"
           ]
       },
       {
         "group": "Datenschutz",
         "pages": [
-          "pages/datenschutz/dsgvo",
-          "pages/datenschutz/hosting"
+          "datenschutz/dsgvo",
+          "datenschutz/hosting"
           ]
       }
     ]
