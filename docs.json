@@ -16,7 +16,8 @@
         "pages": [
           "ersteschritte/willkommen",
           "ersteschritte/demo",
-          "ersteschritte/agentbuchen"
+          "ersteschritte/agentbuchen",
+          "ersteschritte/implementierung"
           ]
       },
       {
