@@ -1,13 +1,27 @@
 ---
 title: 'Indexierung'
-description: 'Die Wissensbasis des RAG-Agent kann über Sitemaps, einzelne URLs sowie Dateien erweitert werden.'
+description: 'Der RAG-Agent kann zahlreiche Quellen als Wissensbasis nutzen.'
 ---
 
-In der Basis-Version unseres RAG-Agent stehen zwei Indexierungsmöglichkeiten zur Verfügung. Es können sowohl komplette Sitemaps als auch einzelne Seiten als URL eingetragen werden. Zusätzlich können dem Agent verschiedene Dateiformate als Wissensbasis zur Verfügung gestellt werden.
+In der Basis-Version stehen zwei Indexierungsmöglichkeiten zur Verfügung. Es können sowohl komplette Sitemaps als auch einzelne Seiten als URL eingetragen werden. Zusätzlich können dem Agent verschiedene Dateiformate als Wissensbasis zur Verfügung gestellt werden.
 
 ## Websites 
 
-Es besteht die Möglichkeit, entweder eine Sitemap im `.xml` Format oder eine einfache URL indexieren Zu lassen. Dabei muss die XML Datei über das Internet öffentlich aufrufbar sein.
+Es besteht die Möglichkeit, sowohl eine Sitemap im `xml`-Format als auch eine einfache URL indexieren zu lassen. Die Sitemap-URL muss über das Internet öffentlich abrufbar sein.
+
+<CodeGroup>
+
+```javascript XML-Format
+https://www.deinedomain.de/sitemap.xml
+https://www.deinedomain.de/product-sitemap.xml
+```
+
+```python URL
+https://www.deinedomain.de/produkt
+https://www.deinedomain.de/event
+```
+
+</CodeGroup>
 
 Die meisten CMS, wie Typo 3, WordPress, XXX oder E-Commerce Lösungen wie Shopware oder magento, liefern standardmäßig entsprechende XML Dateien mit
 
