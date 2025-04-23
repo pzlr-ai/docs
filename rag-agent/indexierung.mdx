@@ -11,27 +11,33 @@ Es besteht die Möglichkeit, sowohl eine Sitemap im `xml`-Format als auch eine e
 
 <CodeGroup>
 
-```javascript XML-Format
+``` XML-Format
 https://www.deinedomain.de/sitemap.xml
 https://www.deinedomain.de/product-sitemap.xml
 ```
 
-```python URL
+``` URL
 https://www.deinedomain.de/produkt
 https://www.deinedomain.de/event
 ```
 
 </CodeGroup>
 
-Die meisten CMS, wie Typo 3, WordPress, XXX oder E-Commerce Lösungen wie Shopware oder magento, liefern standardmäßig entsprechende XML Dateien mit
 
 ### Sitemap
 
-Der Rackagent ist in der Lage, die in der Zeit UL enthaltenen Seiten zu exportieren und einzeln in seine Wissensbasis einzufügen. Wird eine Seiten URL erneut hochgeladen, werden sämtliche doppelten Inhalte überschrieben.
+Der RAG-Agent kann die in der Sitemap-URL enthaltenen, einzelnen Seiten exportieren und als eigenen Eintrag in seine Wissensbasis zu importieren. Wird eine bereits vorhandene URL erneut hochgeladen, werden die bereits unter der entsprechenden Domain bestehenden Inhalte überschrieben.
 
 Sobald die Indexierung der Seiten erfolgreich abgeschlossen wurde und der Agent auf das Wissen zugreifen kann, erhält man eine Bestätigung E-Mail und der Status im Dashboard ändert sich in Live.
 
-Es wird empfohlen, zusätzlich zur Sidemap UL auch einen Beschreibungstext einzugeben, wodurch die einzelnen Zeiten später einer bestimmten Zeit Map zugeordnet und dadurch gefiltert werden können.
+Die meisten Content-Management-Systeme (Bsp.: Typo3, WordPress, Drupal) sowie eCommerce-Plattformen (Bsp.: Shopware, Shopify, Magento) liefern standardmäßig entsprechende Sitemap-URLs in folgendem Format mit:
+
+```
+https://www.deinedomain.de/sitemap.xml
+https://www.deinedomain.de/product-sitemap.xml
+```
+
+Wir empfehlen, zusätzlich zur Sitemap-URL auch einen Namen bzw. Beschreibungstext einzugeben, was dir die spätere Zuordnung einzelner Seiten zu einer bestimmten Sitemap erleichtert. Zudem kann die URL-Liste über ein Dropdown nach Sitemaps gefiltert werden.
 
 ### Einzelne URLs
 ---
