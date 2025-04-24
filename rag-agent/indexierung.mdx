@@ -5,11 +5,13 @@ description: 'Der RAG-Agent kann zahlreiche Quellen als Wissensbasis nutzen.'
 
 In der Basis-Version stehen zwei Indexierungsmöglichkeiten zur Verfügung. Es können sowohl komplette Sitemaps als auch einzelne Seiten als URL eingetragen werden. Zusätzlich können dem Agent verschiedene Dateiformate als Wissensbasis zur Verfügung gestellt werden.
 
+
 ## Websites 
 
 Es besteht die Möglichkeit, sowohl eine **Sitemap im XML-Format** als auch eine einfache **Website-URL** indexieren zu lassen. Die Sitemap-URL muss über das Internet öffentlich abrufbar sein.
 
 <Tip>Wir empfehlen dir den Upload einer (Teil-)Sitemap im XML-Format. So kannst du gezielt Seiten ausschließen, musst jedoch nicht alle einzeln indexieren.</Tip>
+
 
 ### Sitemap
 
@@ -26,11 +28,15 @@ https://www.deinedomain.de/product-sitemap.xml
 
 Wir empfehlen, neben der Sitemap-URL auch einen Namen bzw. Beschreibungstext einzugeben. Das erleichtert die spätere Zuordnung einzelner Seiten zu einer bestimmten Sitemap, da die URL-Liste über ein Dropdown entsprechend gefiltert werden kann.
 
-### Einzelne URLs
----
+
+### Einzel-URL
+
+Es besteht au0erdem die Möglichkeit, einzelne Unterseiten oder bspw. Landingpages dem RAG-Agent als Wissen zur Verfügung zu stellen. Dazu muss über das gleiche Eingabeformular lediglich anstelle einer Sitemap die direkte Seiten-URL übermittelt werden. Nach erfolgreicher Indexierung erhältst du auch in diesem Fall eine Bestätigung per E-Mail und der Status der Seite in deinem Dashboard ändert sich von `Pending` in `Live`.
+
 
 ## Dateien
 
+ 
 <Tip>Der RAG-Agent versteht die Dateiformate **PDF, XLS/XLSX, TXT, DOC/DOCX** und *CSV*. Bei der Indexierung von Tabellen wird das Dateiformat `.csv` empfohlen.</Tip>
 
 ## Knowledge Bases (Add-On)
