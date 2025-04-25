@@ -47,8 +47,7 @@
         "group": "Dashboard",
         "pages": [
           "dashboard/urls",
-          "dashboard/dateien",
-          "dashboard/chatsessions"
+          "dashboard/dateien"
           ]
       },
       {
