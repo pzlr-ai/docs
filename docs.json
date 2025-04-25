@@ -75,8 +75,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@pzlr.ai"
+        "label": "Changelog",
+        "href": "https://docs.pzlr.ai/informationen/changelog"
       }
     ],
     "primary": {
