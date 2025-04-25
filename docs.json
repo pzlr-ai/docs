@@ -56,6 +56,7 @@
           "integrationen/hubspot",
           "integrationen/monday-crm",
           "integrationen/outlook",
+          "integrationen/salesforce",
           "integrationen/zoho-crm"
           ]
       }
