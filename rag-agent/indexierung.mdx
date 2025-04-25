@@ -38,10 +38,15 @@ Es besteht außerdem die Möglichkeit, einzelne Unterseiten oder bspw. Landingpa
 
 Neben der Indexierung von Websites ermöglicht der Datei-Upload eine flexible und schnelle Integration eigener Dokumente als Wissensquelle für den RAG-Agent.
 
+Über den Reiter "Dateien" ist der Upload einer oder mehrerer Dateien per Drag and Drop möglich, zu sehen ist dort zudem die bereits indexierten Dateien sowie der zur Verfügung stehende Speicherplatz
 
+Aktuell versteht der RAG-Agent die Dateiformate **PDF, XLS/XLSX, DOC/DOCX, TXT** und **CSV**. Wir empfehlen dir bei der Indexierung von Tabellen den Import kommagetrennter CSV-Dateien.
 
- 
-<Tip>Der RAG-Agent versteht die Dateiformate **PDF, XLS/XLSX, TXT, DOC/DOCX** und *CSV*. Bei der Indexierung von Tabellen wird das Dateiformat `.csv` empfohlen.</Tip>
+### Speicherplatz
+
+In der Basis-Version des RAG-Agent stehen pro Account 1 GB Datenspeicher und 2 GB Vector-DB Speicher zur Verfügung. Die beiden Speicherarten unterscheiden sich in ihrem Verwendungszweck – der Datenspeicher ist der Ort wo deine hochgeladenen Daten abgeöegt sind. Der Vector-DB Speicher wiederum steht der Vektordatenbank zur Verfügung, welche die Wissensbasis deines RAG-Agent darstellt.
+
+<Tip>Mehr zur Funktionsweise von Vektordatenbanken, Chunking und Embedding Models findest du <a href="https://weaviate.io/blog/what-is-agentic-rag" target="_blank">hier</a>.</Tip>
 
 ## Knowledge Bases (Add-On)
  
