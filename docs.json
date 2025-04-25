@@ -57,14 +57,6 @@
           "integrationen/outlook",
           "integrationen/zoho-crm"
           ]
-      },
-      {
-        "group": "Informationen",
-        "pages": [
-          "informationen/changelog",
-          "informationen/dsgvo",
-          "informationen/hosting"
-          ]
       }
     ]
   },
