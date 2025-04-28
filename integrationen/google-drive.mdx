@@ -8,18 +8,22 @@ Google Drive (als Teil von 'Google Workspace') dient als zentrale Dateiablage f�
 
 ## Verfügbare Funktionen
 
-Folgende Operationen sind mit unserer Hubspot-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
+Folgende Operationen sind mit unserer Google Drive-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
 
 <AccordionGroup>
 
-  <Accordion title="Kalender">
-    - Verfügbarkeit prüfen
+  <Accordion title="Datei">
+    - Datei erstellen/aktualisieren
+    - Datei löschen
+    - Datei teilen
+    - Datei abrufen
+    - Datei suchen
   </Accordion>
 
-  <Accordion title="Termin">
-    - Termin erstellen/editieren
-    - Termin löschen
-    - Termin abrufen
+  <Accordion title="Ordner">
+    - Ordner erstellen
+    - Ordner löschen
+    - Ordner teilen
   </Accordion>
 
 </AccordionGroup>
@@ -28,9 +32,9 @@ Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufga
 
 ## Google OAuth 2 Service
 
-Voraussetzung für die Nutzung der Gmail-API und die Integration in einen unserer Agents ist ein [Google Cloud](https://cloud.google.com/?hl=de) -Account.
+Voraussetzung für die Nutzung der Google Drive-API und die Integration in einen unserer Agents ist ein [Google Cloud](https://cloud.google.com/?hl=de)-Account.
 
-<Note>Die folgenden Informationen gelten ebenfalls für die Integration von [Gmail](/integrationen/gmail) und [Google Drive](/integrationen/google-drive). Mehr Informationen zur Calendar-API findest du im offiziellen [Google Calendar API-Guide](https://developers.google.com/workspace/calendar/api/guides/overview?hl=de).</Note>
+<Note>Die folgenden Informationen gelten ebenfalls für die Integration von [Gmail](/integrationen/gmail) und [Google Calendar](/integrationen/google-calendar). Mehr Informationen zur Drive-API findest du im offiziellen [Google Drive API-Guide](https://developers.google.com/workspace/drive/api/guides/about-sdk?hl=de).</Note>
 
 In fünf Schritten verknüpfst du deinen Agent mit den verfügbaren Google-Diensten.
 
@@ -46,11 +50,11 @@ In fünf Schritten verknüpfst du deinen Agent mit den verfügbaren Google-Diens
 ## Verwendbar in folgenden Agents
 
 <CardGroup cols={2}>
-  <Card title="Sales-Agent" href="/sales-agent/comingsoon">
-    Voraussichtlich verfügbar als Booster für Terminvereinbarungen
+  <Card title="RAG-Agent" href="/sales-agent/comingsoon">
+    Verfügbar als Quelle/Speicherplatz für Wissensdaten
   </Card>
-  <Card title="Recruiting-Agent" href="/recruiting-agent/comingsoon">
-    Umfangreiche Integration bei Bewerbungen und Interviews
+  <Card title="Weitere Agents" href="/recruiting-agent/comingsoon">
+    Voraussichtlich verfügbar als Speicherplatz für Dateien
   </Card>
   
 </CardGroup>
