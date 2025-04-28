@@ -39,10 +39,10 @@ Der zweite Bucket besitzt in der Basis-Version folgende Eigenschaften und enthä
 
 ## Datei-Liste
 
-Die Auflistung enthält sämtliche, in der Vektor-Datenbank als Datensätze hinterlegte Dateien. Jede Datei wird mit Name, Datei-Typ und -größe sowie Upload-Datum angezeigt und kann einzeln über das Mülleimer-Icon oder die Mehrfachauswahl gelöscht werden.
+Die Auflistung enthält sämtliche im Datenspeicher UND in der Vektor-Datenbank als Datensätze hinterlegte Dateien. Jede Datei wird mit Name, Datei-Typ und -größe sowie Upload-Datum angezeigt und kann einzeln über das Mülleimer-Icon oder die Mehrfachauswahl gelöscht werden.
 
-Die Live-Suche ermöglicht die gezielte Suche nach einer spezifischen Datei.
+Die Live-Suche oberhalb der Liste ermöglicht die gezielte Suche nach einer spezifischen Datei.
 
 ### Löschung
 
-Bei der Löschung einer Datei wird diese aus dem entsprechenden S3-Bucket gelöscht. Parallel werden die dazugehörigen Datensätze (Reihen) aus der Vektor-Datenbank ebenfalls gelöscht, wodurch dem RAG-Agent unmittelbar das entsprechende "Wissen" entzogen wird.
+Bei der Löschung einer Datei wird diese aus dem entsprechenden S3-Bucket gelöscht. Parallel werden die dazugehörigen Datensätze (Reihen) aus der Vektor-Datenbank ebenfalls entfernt, wodurch dem RAG-Agent **unmittelbar** das entsprechende "Wissen" entzogen wird.
