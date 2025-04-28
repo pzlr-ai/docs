@@ -51,13 +51,7 @@
         "group": "Integrationen",
         "pages": [
           "integrationen/gmail",
-          "integrationen/google-calendar",
-          "integrationen/google-drive",
-          "integrationen/hubspot",
-          "integrationen/outlook",
-          "integrationen/monday-crm",
-          "integrationen/salesforce",
-          "integrationen/zoho-crm"
+          "integrationen/hubspot"
           ]
       }
     ]
