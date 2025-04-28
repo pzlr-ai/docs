@@ -51,6 +51,7 @@
         "group": "Integrationen",
         "pages": [
           "integrationen/gmail",
+          "integrationen/google-calendar",
           "integrationen/hubspot"
           ]
       }
