@@ -6,35 +6,48 @@ description: 'Integration und Automatisierungen mit Monday CRM.'
 Monday CRM ist eine flexible und visuell strukturierte CRM-Lösung, die sich nahtlos in verschiedene Agents integrieren lässt, um Vertriebsprozesse, Aufgabenmanagement und Kundeninteraktionen zentral zu organisieren, zu automatisieren und dynamisch mit externen Datenquellen anzureichern.
 <Info>Solltest du dein Tool nicht unter den verfügbaren Integrationen finden, sende uns <a href="mailto:support@pzlr.ai">**hier**</a> einen Feature Request.</Info>
 
-### Einleitung & Nutzen
+## Verfügbare Funktionen
 
-- Kurzbeschreibung der Integration
-- Warum diese Integration für AI Agents wichtig ist
+Folgende Operationen sind mit unserer Monday CRM-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
 
-### Verfügbare Funktionen
+<AccordionGroup>
 
-- Übersicht der unterstützten Funktionen
-- Unterschiede je nach Agent (z. B. Lesend vs. Schreibend, Trigger, Automatisierungen)
+  <Accordion title="Board">
+    - Board erstellen
+    - Board archivieren
+    - Board abrufen
+  </Accordion>
 
-### Verwendbar in folgenden Agents
+  <Accordion title="Board Eintrag">
+    - Board Eintrag erstellen/aktualisieren
+    - Board Eintrag löschen
+    - Board Eintrag abrufen/filtern nach Reihenwert
+    - Reihenwert für Board Eintrag ändern
+  </Accordion>
 
-- Auflistung der kompatiblen Agents mit Beschreibung, was sie nutzen
-- Eventuell: Unterschiede bei Integrationstiefe
+</AccordionGroup>
 
-### Technische Anforderungen
+Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufgaben zuweisen. Schicke uns hierzu gerne einen <a href="mailto:support@pzlr.ai">Feature Request</a>.
 
-- API Key / OAuth
-- Rollenberechtigungen
-- Setup-Hinweise
+## Authentifizierung
 
-### Anwendungsbeispiele (pro Agent)
+Folgende Authentifizierungsmöglichkeiten werden von uns unterstützt:
 
-- Kurze Use Cases, z. B. „Lead automatisch in Hubspot anlegen“
+- API Token
+- OAuth 2
 
-### Erweiterungsmöglichkeiten
+Beim CRM-Booster (RAG-Agent) bzw. dem Sales-Agent kannst du über das Dashboard deine Monday Credentials verschlüsselt übermitteln.
 
-- Webhooks, Trigger-Aktionen, Pipelines etc.
-- Ideen für zukünftige Automatisierungen
+<Note>Mehr Informationen zur Monday-API findest du in der offiziellen [API-Dokumentation von Monday.com](https://developer.monday.com/api-reference/docs/authentication).</Note>
 
+## Verwendbar in folgenden Agents
 
-
+<CardGroup cols={2}>
+  <Card title="RAG-Agent" href="/upgrades/booster#crm-integration">
+    Verfügbar als CRM-Booster zur Lead-Generierung
+  </Card>
+  <Card title="Sales-Agent" href="/sales-agent/comingsoon">
+    Umfangreiche Integration für Lead-Management
+  </Card>
+  
+</CardGroup>

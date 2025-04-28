@@ -53,7 +53,8 @@
           "integrationen/gmail",
           "integrationen/google-calendar",
           "integrationen/google-drive",
-          "integrationen/hubspot"
+          "integrationen/hubspot",
+          "integrationen/monday-crm"
           ]
       }
     ]
