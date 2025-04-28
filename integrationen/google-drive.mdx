@@ -6,32 +6,51 @@ description: 'Integration und Automatisierungen mit Google Drive.'
 Google Drive (als Teil von 'Google Workspace') dient als zentrale Dateiablage für Dokumente, Präsentationen und Daten, auf die v.a. der RAG-Agent zugreifen kann, um Inhalte zu analysieren, relevante Informationen herauszufiltern oder personalisierte Dateien für E-Mails und Angebote zu generieren.
 <Info>Solltest du dein Tool nicht unter den verfügbaren Integrationen finden, sende uns <a href="mailto:support@pzlr.ai">**hier**</a> einen Feature Request.</Info>
 
-### Einleitung & Nutzen
+## Verfügbare Funktionen
 
-- Kurzbeschreibung der Integration
-- Warum diese Integration für AI Agents wichtig ist
+Folgende Operationen sind mit unserer Hubspot-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
 
-### Verfügbare Funktionen
+<AccordionGroup>
 
-- Übersicht der unterstützten Funktionen
-- Unterschiede je nach Agent (z. B. Lesend vs. Schreibend, Trigger, Automatisierungen)
+  <Accordion title="Kalender">
+    - Verfügbarkeit prüfen
+  </Accordion>
 
-### Verwendbar in folgenden Agents
+  <Accordion title="Termin">
+    - Termin erstellen/editieren
+    - Termin löschen
+    - Termin abrufen
+  </Accordion>
 
-- Auflistung der kompatiblen Agents mit Beschreibung, was sie nutzen
-- Eventuell: Unterschiede bei Integrationstiefe
+</AccordionGroup>
 
-### Technische Anforderungen
+Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufgaben zuweisen. Schicke uns hierzu gerne einen <a href="mailto:support@pzlr.ai">Feature Request</a>.
 
-- API Key / OAuth
-- Rollenberechtigungen
-- Setup-Hinweise
+## Google OAuth 2 Service
 
-### Anwendungsbeispiele (pro Agent)
+Voraussetzung für die Nutzung der Gmail-API und die Integration in einen unserer Agents ist ein [Google Cloud](https://cloud.google.com/?hl=de) -Account.
 
-- Kurze Use Cases, z. B. „Lead automatisch in Hubspot anlegen“
+<Note>Die folgenden Informationen gelten ebenfalls für die Integration von [Gmail](/integrationen/gmail) und [Google Drive](/integrationen/google-drive). Mehr Informationen zur Calendar-API findest du im offiziellen [Google Calendar API-Guide](https://developers.google.com/workspace/calendar/api/guides/overview?hl=de).</Note>
 
-### Erweiterungsmöglichkeiten
+In fünf Schritten verknüpfst du deinen Agent mit den verfügbaren Google-Diensten.
 
-- Webhooks, Trigger-Aktionen, Pipelines etc.
-- Ideen für zukünftige Automatisierungen
+1. Ein Google Cloud Console Projekt erstellen
+2. APIs aktivieren
+3. OAuth Einstellungen konfigurieren
+4. OAuth Credentials hinzufügen
+5. Verknüpfung im pzlr-Dashboard
+
+
+
+
+## Verwendbar in folgenden Agents
+
+<CardGroup cols={2}>
+  <Card title="Sales-Agent" href="/sales-agent/comingsoon">
+    Voraussichtlich verfügbar als Booster für Terminvereinbarungen
+  </Card>
+  <Card title="Recruiting-Agent" href="/recruiting-agent/comingsoon">
+    Umfangreiche Integration bei Bewerbungen und Interviews
+  </Card>
+  
+</CardGroup>
