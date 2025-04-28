@@ -33,11 +33,16 @@ Der zweite Bucket besitzt in der Basis-Version folgende Eigenschaften und enthä
 
 <Tip>Mehr zur Funktionsweise von Vektordatenbanken, Chunking und Embedding Models findest du in diesem lesenswerten <a href="https://weaviate.io/blog/what-is-agentic-rag" target="_blank">Artikel</a> von weaviate.</Tip>
 
-
-
-
-
 ## Upload
+
+Über das Upload-Fenster können Dateien sowohl bequem per Drag&Drop, als auch einzeln über den Upload-Button hochgeladen werden.
 
 ## Datei-Liste
 
+Die Auflistung enthält sämtliche, in der Vektor-Datenbank als Datensätze hinterlegte Dateien. Jede Datei wird mit Name, Datei-Typ und -größe sowie Upload-Datum angezeigt und kann einzeln über das Mülleimer-Icon oder die Mehrfachauswahl gelöscht werden.
+
+Die Live-Suche ermöglicht die gezielte Suche nach einer spezifischen Datei.
+
+### Löschung
+
+Bei der Löschung einer Datei wird diese aus dem entsprechenden S3-Bucket gelöscht. Parallel werden die dazugehörigen Datensätze (Reihen) aus der Vektor-Datenbank ebenfalls gelöscht, wodurch dem RAG-Agent unmittelbar das entsprechende "Wissen" entzogen wird.
