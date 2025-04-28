@@ -6,32 +6,63 @@ description: 'Integration und Automatisierungen mit Google Mail.'
 Die Integration von Google Mail (als Teil von 'Google Workspace') ermöglicht den direkten Zugriff auf eingehende und ausgehende E-Mails, sodass unsere Agents Konversationen analysieren, automatisierte Antworten generieren und kontextbasierte Aktionen wie Follow-ups oder Erinnerungen initiieren können.
 <Info>Solltest du dein Tool nicht unter den verfügbaren Integrationen finden, sende uns <a href="mailto:support@pzlr.ai">**hier**</a> einen Feature Request.</Info>
 
-### Einleitung & Nutzen
+## Verfügbare Funktionen
 
-- Kurzbeschreibung der Integration
-- Warum diese Integration für AI Agents wichtig ist
+Folgende Operationen sind mit unserer Hubspot-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
 
-### Verfügbare Funktionen
+<AccordionGroup>
 
-- Übersicht der unterstützten Funktionen
-- Unterschiede je nach Agent (z. B. Lesend vs. Schreibend, Trigger, Automatisierungen)
+  <Accordion title="Entwurf">
+    - Entwurf erstellen/aktualisieren
+    - Entwurf löschen
+    - Entwürfe abrufen
+  </Accordion>
 
-### Verwendbar in folgenden Agents
+  <Accordion title="E-Mail">
+    - E-Mail senden/beantworten
+    - E-Mail löschen
+    - E-Mail abrufen
+    - Als gelesen/ungelesen markieren
+    - Label hinzufügen/entfernen
+  </Accordion>
 
-- Auflistung der kompatiblen Agents mit Beschreibung, was sie nutzen
-- Eventuell: Unterschiede bei Integrationstiefe
+  <Accordion title="Unterhaltung">
+    - Unterhaltung abrufen
+    - Unterhaltung löschen
+    - Gelöschte Unterhaltung wiederherstellen
+    - Label hinzufügen/entfernen
+  </Accordion>
 
-### Technische Anforderungen
+  <Accordion title="Label">
+    - Label erstellen/aktualisieren
+    - Label löschen
+    - Label abrufen
+  </Accordion>
 
-- API Key / OAuth
-- Rollenberechtigungen
-- Setup-Hinweise
+</AccordionGroup>
 
-### Anwendungsbeispiele (pro Agent)
+Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufgaben zuweisen. Schicke uns hierzu gerne einen <a href="mailto:support@pzlr.ai">Feature Request</a>.
 
-- Kurze Use Cases, z. B. „Lead automatisch in Hubspot anlegen“
+## Authentifizierung
 
-### Erweiterungsmöglichkeiten
+Folgende Authentifizierungsmöglichkeiten werden von uns unterstützt:
 
-- Webhooks, Trigger-Aktionen, Pipelines etc.
-- Ideen für zukünftige Automatisierungen
+- App Token
+- Developer API-Key
+- OAuth 2
+
+Beim CRM-Booster (RAG-Agent) bzw. dem Sales-Agent kannst du über das Dashboard deine API Credentials verschlüsselt übermitteln.
+
+<Note>Mehr Informationen zur Gmail-API findest du im offiziellen [Gmail API-Guide](https://developers.google.com/workspace/gmail/api/guides?hl=de).</Note>
+
+## Verwendbar in folgenden Agents
+
+<CardGroup cols={2}>
+  <Card title="RAG-Agent" href="/upgrades/booster#crm-integration">
+    Verfügbar als CRM-Booster zur Lead-Generierung
+  </Card>
+  <Card title="Sales-Agent" href="/sales-agent/comingsoon">
+    Umfangreiche Integration für Lead-Management
+  </Card>
+  
+</CardGroup>
