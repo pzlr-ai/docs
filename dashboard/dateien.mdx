@@ -9,7 +9,33 @@ Wir empfehlen bei Tabellen den Upload kommagetrennter CSV-Dateien.
 
 <img src="/images/dashboard_files.jpg" />
 
-### Speicherplatz
+## Speicherplatz
+
+Beim Speicherplatz wird zwischen **Datenspeicher** und **Vector DB Speicherplatz** unterschieden. Beide Speicherorte befinden sich auf dem gleichen, kundeneigenen S3-Server, der wiederum in verschiedene Buckets unterteilt ist (Buckets sind wie Ordner auf dem Computer und dienen dazu, die Daten in S3 zu organisieren und zu strukturieren).
+
+### Datenspeicher
+
+Sämtliche hochgeladene Dateien (PDF, TXT etc.) werden in einem der beiden verschlüsselten S3-Buckets gespeichert. Folgende Eigenschaften stehen für diesen Bucket in der Basis-Version des RAG-Agent zur Verfügung:
+- 1 GB Speicherplatz
+- XXX
+- XXX
+- Verfügbarkeit: 24/7 
+- Serverstandort: Nürnberg, Deutschland
+
+### Vector DB Speicherplatz
+
+Der zweiten Bucket besitzt in der Basis-Version des folgende Eigenschaften und dient als Speicherplatz für die RAG-optimierten Vektordaten und File-Chunks, welche die Wissensbasis des RAG-Agent bilden.
+- 2 GB Speicherplatz
+- XXX
+- XXX
+- Verfügbarkeit: 24/7 
+- Serverstandort: Nürnberg, Deutschland
+
+<Tip>Mehr zur Funktionsweise von Vektordatenbanken, Chunking und Embedding Models findest du in diesem lesenswerten <a href="https://weaviate.io/blog/what-is-agentic-rag" target="_blank">Artikel</a> von weaviate.</Tip>
+
+
+
+
 
 ### Upload
 
