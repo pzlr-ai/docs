@@ -54,7 +54,9 @@
           "integrationen/google-calendar",
           "integrationen/google-drive",
           "integrationen/hubspot",
-          "integrationen/monday-crm"
+          "integrationen/monday-crm",
+          "integrationen/salesforce",
+          "integrationen/zoho-crm"
           ]
       }
     ]
