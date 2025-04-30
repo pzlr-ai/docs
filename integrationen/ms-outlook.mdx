@@ -1,0 +1,77 @@
+---
+title: 'Microsoft Outlook'
+description: 'Integration und Automatisierungen mit Microsoft Outlook.'
+---
+
+Outlook verbindet deine E-Mail-Kommunikation und Kalenderverwaltung mit den Agents – für automatisierte Kommunikation, Erinnerungen, Terminabsprachen und eine smarte Zusammenführung von Informationen aus Nachrichtenverläufen.
+<Info>Solltest du dein Tool nicht unter den verfügbaren Integrationen finden, sende uns <a href="mailto:support@pzlr.ai">**hier**</a> einen Feature Request.</Info>
+
+## Verfügbare Funktionen
+
+Folgende Operationen sind mit unserer Microsoft Outlook-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
+
+<AccordionGroup>
+
+  <Accordion title="Kalender">
+    - Verfügbarkeit prüfen
+    - Termin erstellen/editieren
+    - Termin löschen
+    - Termin abrufen
+  </Accordion>
+
+  <Accordion title="Kontakt">
+    - Kontakt erstellen/editieren
+    - Kontakt löschen
+    - Kontakt abrufen
+  </Accordion>
+
+  <Accordion title="E-Mail">
+    - E-Mail senden/beantworten
+    - E-Mail löschen
+    - E-Mail abrufen
+    - Als gelesen/ungelesen markieren
+    - E-Mail senden und Rückantwort anfragen
+  </Accordion>
+
+  <Accordion title="E-Mail Anhang">
+    - Anhang hinzufügen/löschen
+    - Anhang herunterladen
+  </Accordion>
+
+  <Accordion title="Ordner">
+    - Ordner erstellen/editieren
+    - Ordner löschen
+    - Ordner abrufen
+  </Accordion>
+
+</AccordionGroup>
+
+Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufgaben zuweisen. Schicke uns hierzu gerne einen <a href="mailto:support@pzlr.ai">Feature Request</a>.
+
+## Microsoft OAuth 2 Service
+
+Voraussetzung für die Integration von Microsoft Outlook in einen unserer Agents ist ein [Microsoft Azure](https://azure.microsoft.com/de-de/)-Account. Zudem muss ein Benutzeraccount mit den entsprechenden Zugriffsrechten erstellt werden.
+
+In fünf Schritten verknüpfst du deinen Agent mit den verfügbaren Google-Diensten.
+
+1. Ein Google Cloud Console Projekt erstellen
+2. APIs aktivieren
+3. OAuth Einstellungen konfigurieren
+4. OAuth Credentials hinzufügen
+5. Verknüpfung im pzlr-Dashboard
+
+Für den Email-Booster unseres RAG-Agent kannst du über das Dashboard deine Microsoft Credentials verschlüsselt übermitteln.
+
+<Note>Mehr Informationen zur Outlook-API findest du in der offiziellen [API-Dokumentation von MS Outlook](https://learn.microsoft.com/en-us/outlook/rest/reference). Informationen zur mail REST API findest du in der [Graph-API Dokumentation](https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview?view=graph-rest-1.0).</Note>
+
+## Verwendbar in folgenden Agents
+
+<CardGroup cols={2}>
+  <Card title="RAG-Agent" href="/upgrades/booster#crm-integration">
+    Verfügbar als CRM-Booster zur Lead-Generierung
+  </Card>
+  <Card title="Recruiting-Agent" href="/recruiting-agent/comingsoon">
+    Umfangreiche Integration bei Bewerbungen und Interviews
+  </Card>
+  
+</CardGroup>
