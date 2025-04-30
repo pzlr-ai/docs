@@ -55,7 +55,7 @@
           "integrationen/google-drive",
           "integrationen/hubspot",
           "integrationen/monday-crm",
-          "integrationen/microsoft-outlook",
+          "integrationen/ms-outlook",
           "integrationen/salesforce",
           "integrationen/zoho-crm"
           ]
