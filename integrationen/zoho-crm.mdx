@@ -6,32 +6,64 @@ description: 'Integration und Automatisierungen mit Zoho CRM.'
 Das CRM-Tool von Zoho lässt sich als zentrale Anlaufstelle für Kunden- oder Bewerberdaten in die Agents einbinden, um Leads, Kontakte oder offene Prozesse zu analysieren, anzureichern oder auf Basis intelligenter Regeln weiterzuentwickeln.
 <Info>Solltest du dein Tool nicht unter den verfügbaren Integrationen finden, sende uns <a href="mailto:support@pzlr.ai">**hier**</a> einen Feature Request.</Info>
 
-### Einleitung & Nutzen
+## Verfügbare Funktionen
 
-- Kurzbeschreibung der Integration
-- Warum diese Integration für AI Agents wichtig ist
+Folgende Operationen sind mit unserer Zoho CRM-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
 
-### Verfügbare Funktionen
+<AccordionGroup>
 
-- Übersicht der unterstützten Funktionen
-- Unterschiede je nach Agent (z. B. Lesend vs. Schreibend, Trigger, Automatisierungen)
+  <Accordion title="Kontakt">
+    - Kontakt erstellen/aktualisieren
+    - Kontakt löschen
+    - Kontakt abrufen
+  </Accordion>
 
-### Verwendbar in folgenden Agents
+  <Accordion title="Lead">
+    - Lead erstellen/aktualisieren
+    - Lead löschen
+    - Lead abrufen
+  </Accordion>
 
-- Auflistung der kompatiblen Agents mit Beschreibung, was sie nutzen
-- Eventuell: Unterschiede bei Integrationstiefe
+  <Accordion title="Deal">
+    - Deal erstellen/aktualisieren
+    - Deal löschen
+    - Deal abrufen
+  </Accordion>
 
-### Technische Anforderungen
+  <Accordion title="Produkt">
+    - Produkt erstellen/aktualisieren
+    - Produkt löschen
+    - Produkt abrufen
+  </Accordion>
 
-- API Key / OAuth
-- Rollenberechtigungen
-- Setup-Hinweise
+  <Accordion title="Bestellung (Einkauf/Verkauf)">
+    - Bestellung erstellen/aktualisieren
+    - Bestellung löschen
+    - Bestellung abrufen
+  </Accordion>
 
-### Anwendungsbeispiele (pro Agent)
+</AccordionGroup>
 
-- Kurze Use Cases, z. B. „Lead automatisch in Hubspot anlegen“
+Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufgaben zuweisen. Schicke uns hierzu gerne einen <a href="mailto:support@pzlr.ai">Feature Request</a>.
 
-### Erweiterungsmöglichkeiten
+## Authentifizierung
 
-- Webhooks, Trigger-Aktionen, Pipelines etc.
-- Ideen für zukünftige Automatisierungen
+Folgende Authentifizierungsmöglichkeiten werden von uns unterstützt:
+
+- OAuth 2
+
+Beim CRM-Booster (RAG-Agent) bzw. dem Sales-Agent kannst du über das Dashboard deine Zoho Credentials verschlüsselt übermitteln.
+
+<Note>Mehr Informationen zur Zoho-API findest du in der offiziellen [API-Dokumentation von Zoho](https://www.zoho.com/crm/developer/docs/api/v3/).</Note>
+
+## Verwendbar in folgenden Agents
+
+<CardGroup cols={2}>
+  <Card title="RAG-Agent" href="/upgrades/booster#crm-integration">
+    Verfügbar als CRM-Booster zur Lead-Generierung
+  </Card>
+  <Card title="Sales-Agent" href="/sales-agent/comingsoon">
+    Voraussichtliche Integration für Lead-Management
+  </Card>
+  
+</CardGroup>

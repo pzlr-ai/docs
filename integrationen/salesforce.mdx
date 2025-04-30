@@ -6,32 +6,84 @@ description: 'Integration und Automatisierungen mit Salesforce.'
 Salesforce mit seinen umfangreichen Automatisierungsfunktionen und KI-gestützter Analyse eignet sich perfekt für die nahtlose Einbindung in unsere Agents, um Workflows zu optimieren und datengestützte Entscheidungen in Echtzeit zu ermöglichen.
 <Info>Solltest du dein Tool nicht unter den verfügbaren Integrationen finden, sende uns <a href="mailto:support@pzlr.ai">**hier**</a> einen Feature Request.</Info>
 
-### Einleitung & Nutzen
+## Verfügbare Funktionen
 
-- Kurzbeschreibung der Integration
-- Warum diese Integration für AI Agents wichtig ist
+Folgende Operationen sind mit unserer Salesforce-Integration grundsätzlich möglich und je nach Agent teilweise schon integriert.
 
-### Verfügbare Funktionen
+<AccordionGroup>
 
-- Übersicht der unterstützten Funktionen
-- Unterschiede je nach Agent (z. B. Lesend vs. Schreibend, Trigger, Automatisierungen)
+  <Accordion title="Account">
+    - Account erstellen/aktualisieren
+    - Account löschen
+    - Account(-Metadaten) abrufen
+    - Notiz an Account anhängen
+  </Accordion>
 
-### Verwendbar in folgenden Agents
+  <Accordion title="Anhang">
+    - Anhang erstellen/aktualisieren
+    - Anhang löschen
+    - Anhang abrufen
+  </Accordion>
 
-- Auflistung der kompatiblen Agents mit Beschreibung, was sie nutzen
-- Eventuell: Unterschiede bei Integrationstiefe
+  <Accordion title="Case">
+    - Case erstellen/aktualisieren
+    - Case löschen
+    - Case(-Metadaten) abrufen
+    - Kommentar zu Case hinzufügen
+  </Accordion>
 
-### Technische Anforderungen
+  <Accordion title="Lead">
+    - Lead erstellen/aktualisieren
+    - Lead löschen
+    - Lead abrufen
+    - Notiz an Lead anhängen
+    - Lead zu Kampagne hinzufügen
+  </Accordion>
 
-- API Key / OAuth
-- Rollenberechtigungen
-- Setup-Hinweise
+  <Accordion title="Opportunity">
+    - Opportunity erstellen/aktualisieren
+    - Opportunity löschen
+    - Opportunity abrufen
+    - Notiz an Opportunity anhängen
+  </Accordion>
 
-### Anwendungsbeispiele (pro Agent)
+  <Accordion title="Task">
+    - Task erstellen/aktualisieren
+    - Task löschen
+    - Task abrufen
+  </Accordion>
 
-- Kurze Use Cases, z. B. „Lead automatisch in Hubspot anlegen“
+  <Accordion title="Flow">
+    - Flow abrufen
+  </Accordion>
 
-### Erweiterungsmöglichkeiten
+  <Accordion title="Dokument">
+    - Dokument hochladen
+  </Accordion>
 
-- Webhooks, Trigger-Aktionen, Pipelines etc.
-- Ideen für zukünftige Automatisierungen
+</AccordionGroup>
+
+Per Custom API Calls können wir unseren Agents weitere, individualisierte Aufgaben zuweisen. Schicke uns hierzu gerne einen <a href="mailto:support@pzlr.ai">Feature Request</a>.
+
+## Authentifizierung
+
+Folgende Authentifizierungsmöglichkeiten werden von uns unterstützt:
+
+- JWT
+- OAuth 2
+
+Beim CRM-Booster (RAG-Agent) bzw. dem Sales-Agent kannst du über das Dashboard deine Salesforce Credentials verschlüsselt übermitteln.
+
+<Note>Mehr Informationen zu Salesforce-Anwendungen findest du in der offiziellen [Entwickler-Dokumentation von Salesforce](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm).</Note>
+
+## Verwendbar in folgenden Agents
+
+<CardGroup cols={2}>
+  <Card title="RAG-Agent" href="/upgrades/booster#crm-integration">
+    Verfügbar als CRM-Booster zur Lead-Generierung
+  </Card>
+  <Card title="Sales-Agent" href="/sales-agent/comingsoon">
+    Voraussichtliche Integration für Lead-Management
+  </Card>
+  
+</CardGroup>
